@@ -1,0 +1,24 @@
+.navbar .icon a{
+    text-decoration: none;
+}
+.navbar .navbar-nav li{
+    font-size: 19px;
+}
+.navbar .navbar-nav li a{
+    text-decoration: none;
+}
+.navbar .navbar-nav a.nav-link.home:hover{
+    color: rgb(75, 139, 75);
+}
+.navbar .navbar-nav a.nav-link.help:hover{
+    color: rgb(214, 214, 70);
+}
+
+.section-home{
+    background-color: #e9ecef;
+    height:auto;
+}
+.section-keunggulan{
+    background-color: #fff;
+}
+

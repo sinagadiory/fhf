@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>bootstrap1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container py-2">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/diory-pribadi-sinaga-16b0071ba/" target="_blank">
+              <img src="img/diory.jpg" alt="" class="rounded-circle">  
+          </a>
+          <div class="icon pt-3">
+            <div class="logo" style="color: #B4CFB0; font-size: 26px;"><span style="color: #db3131;">Sinaga</span>Website</div> 
+            <div class="social mx-3 ">
+              <a href="" class="mx-1">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://github.com/diorypribadisinaga" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" class="mx-1">
+                <i class="fa-brands fa-instagram" ></i>
+              </a>
+              <a href="#" class="mx-1">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#" class="mx-1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active home" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link help" href="#">Bantuan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kontak
+                </a>
+                <ul class="dropdown-menu" style="background-color:#efdbf1;" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" height="20" alt="" class="px-2">Wa
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="https://www.pngkit.com/png/full/816-8165997_line-icon-circle-line.png" alt="" height="20" class="rounded-circle px-2">Line
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-512.png" class="rounded-circle px-2" alt="" height="20">Telegram
+                  </a></li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <button type="button" class="btn btn-outline-success mx-1" data-bs-target="#exampleModal" data-bs-toggle="modal">Login</button>
+              <button type="button" class="btn btn-outline-primary mx-1" data-bs-target="#exampleModal1" data-bs-toggle="modal">Daftar</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="section-home">
+      <div class="container py-4">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row" style="display: flex;">  
+                <div class="col-lg-6 text-center align-self-center">
+                  <div class="gambar pb-3">
+                    <div class="row">
+                      <div class="col col-sm-6 col-md-12 col-lg-6 mb-2">
+                        <img src="https://img.freepik.com/free-vector/flat-people-group-asking-questions_23-2148927481.jpg?w=900" alt="" width="260" class="rounded-circle px-3 mx-1">
+                      </div>
+                      <div class="col col-sm-6 col-md-12 col-lg-6 mb-2">
+                        <img  src="https://img.freepik.com/free-vector/hand-drawn-people-asking-questions-illustration_23-2148906555.jpg?w=900" alt="" width="240" class="rounded-circle">
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="fw-bold">Anda Punya Kendala dengan <span style="color: red;" class="fw-none">Matematika</span> ??</h3>
+                  <h4 class="fw-bold">Kami Solusinya</h4>
+                </div>
+                 <div class="col-lg-6 text-center py-4 ">
+                  <img src="https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-4288.jpg?w=740" alt="" class="w-75 rounded-circle mx-5">
+                 </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">  
+                 <div class="col-lg-6 text-center py-5 ">
+                  <img src="https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-3972.jpg?w=740" alt="" class="w-75 rounded-circle mx-5">
+                 </div>
+                 <div class="col-lg-6 text-center align-self-center">
+                  <h2>Tunggu Apa Lagi??</h2>
+                  <h3>Yok belajar <span style="color: red;">Matematika</span> bersama Diory Pribadi Sinaga</h3><br>
+                  <button type="button" class="btn btn-primary" style="font-size: 20px;">Daftar Sekarang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+     
+    <div class="section-keunggulan">
+      <div class="container my-5 d-flex" data-aos="fade-up" data-aos-duration="1200">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://img.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg?w=900" alt="" data-aos="flip-left" data-aos-duration="1800">
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla, esse amet quam eveniet, ullam architecto quo soluta tenetur beatae ipsum? Consectetur asperiores animi soluta assumenda sunt necessitatibus, libero officia?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quis nisi ea maiores rerum ipsam repellendus harum quia, adipisci laudantium vel facilis laboriosam velit incidunt ipsum officiis vitae eius ad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section-why">
+      <div class="container my-5" data-aos="fade-up-right" data-aos-duration="1400">
+        <h4 class="text-center">Why Us??</h4>
+        <div class="row my-3">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card" >
+              <div class="card-body text-center">
+                <img src="https://img.freepik.com/free-vector/vector-illustration-retro-style-hand-giving-money-other-hand_1284-42589.jpg?w=740" alt="" width="100">
+                <div class="tulisan text-center">
+                  <h5 class="card-title">Biaya Murah</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card" >
+              <div class="card-body">
+                <img src="https://img.freepik.com/free-vector/colorful-books-white_1308-28814.jpg?w=1380" alt="" width="150" class="rounded-circle">
+                <h5 class="card-title mt-4">Materi Mudah Dipahami</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card"  >
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section-pertanyaan">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1600">
+        <div class="row">
+          <div class="col-lg-6 align-self-center p-3">
+            <h3>Tuliskan Pertanyaan Anda Dibawah Ini</h3>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputNama" class="form-label">Nama Anda</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPertanyaan" class="form-label">Pertanyaan</label><br>
+                <textarea name="" id="" class="form-control"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Tanya</button>
+            </form>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <h4>Pertanyaan Umum</h4>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Berapa Biaya Belajarnya?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Ya join aja dulu entar tau harganya berapa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Berapa Lama waktu belajar dalam satu hari?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Yang jelas tidak sampai 24 jam</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Apakah dibuka untuk umum?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Ya jelas iya dong, karena kami butuh uang anda
+                  </div>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-lg-3 pt-4 col-md-6">
+            <p>Jalan dimana saja Kau suka No XXX Kota NoName</p>
+            <p>diorypribadisinaga@upi.edu
+              dioripribadisinaga@gmail.com
+            </p>
+            <p>081276815688</p>
+          </div>
+          <div class="col-lg-3 col-md-6 pt-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolores laboriosam cumque, esse quasi blanditiis, animi perspiciatis reiciendis iusto delectus nam, corrupti dolor ad! Laborum saepe quibusdam nihil vel ipsum?
+          </div>
+          <div class="col-lg-3 col-md-6 pt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellat corrupti dolore, qui facere tempore quis iste sunt dicta quia laborum possimus iure. Vero sit optio, asperiores quasi soluta in.
+          </div>
+          <div class="col-lg-3 col-md-6 pt-4">
+            <img src="img/diory.jpg" alt="" class="rounded-circle mx-5"><br><br>
+            <p>
+              Copyright 2022SinagaDiory
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="">Email</label><br>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Password</label><br>
+                <input type="password" class="form-control">
+              </div><br>
+              <div class="form-group">
+                <button type="button" class="btn btn-primary form-control">Masuk</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Daftar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="">Nama Anda</label><br>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Email Anda</label><br>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Tanggal Lahir</label><br>
+                <input type="date" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Password</label><br>
+                <input type="password" class="form-control">
+              </div><br>
+              <div class="form-group">
+                <button type="button" class="btn btn-success form-control">Daftar</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/4b376d49b6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
